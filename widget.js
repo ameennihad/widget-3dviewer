@@ -2371,7 +2371,7 @@ cpdefine('inline:com-chilipeppr-widget-3dviewer', ['chilipeppr_ready', 'Three', 
                     antialias: true,
                     preserveDrawingBuffer: false,
                     alpha: false,
-                    logarithmicDepthBuffer: false
+                    logarithmicDepthBuffer: true
                 });
             } else {
                 console.error('No WebGL Support found! CRITICAL ERROR!');
