@@ -2318,7 +2318,7 @@ cpdefine('inline:com-chilipeppr-widget-3dviewer', ['chilipeppr_ready', 'Three', 
             var fov = 70,
                 aspect = element.width() / element.height(),
                 near = 0.01, //01, // 1e-6, //
-                far = 100,
+                far = 1000,
                 camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
             this.camera = camera;
             camera.rotationAutoUpdate = true;
