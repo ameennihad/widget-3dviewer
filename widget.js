@@ -2312,7 +2312,7 @@ cpdefine('inline:com-chilipeppr-widget-3dviewer', ['chilipeppr_ready', 'Three', 
                 ctr++;
             });
 
-            var spotLight = new THREE.SpotLight(0xff0000);
+            var spotLight = new THREE.SpotLight(0xffffff);
             spotLight.castShadow = true;
             spotLight.position.set(30, 30, 50);
             scene.add(spotLight);
