@@ -2308,7 +2308,7 @@ cpdefine('inline:com-chilipeppr-widget-3dviewer', ['chilipeppr_ready', 'Three', 
                     light.shadowCameraBottom   = -5;
                     light.shadowCameraVisible = true;
                 }*/
-                scene.add(light);
+                //scene.add(light);
                 ctr++;
             });
 
