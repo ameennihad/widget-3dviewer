@@ -2317,8 +2317,8 @@ cpdefine('inline:com-chilipeppr-widget-3dviewer', ['chilipeppr_ready', 'Three', 
             // a fail on the intersectObjects()
             var fov = 70,
                 aspect = element.width() / element.height(),
-                near = 100, //0.01, //01, // 1e-6, //
-                far = 10000,
+                near = 0.01, //01, // 1e-6, //
+                far = 100,
                 camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
             this.camera = camera;
             camera.rotationAutoUpdate = true;
