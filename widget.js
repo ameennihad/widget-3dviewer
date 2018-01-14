@@ -2314,7 +2314,7 @@ cpdefine('inline:com-chilipeppr-widget-3dviewer', ['chilipeppr_ready', 'Three', 
 
             var spotLight = new THREE.SpotLight(0xffffff);
             spotLight.castShadow = true;
-            spotLight.position.set(15, 30, 50);
+            spotLight.position.set(30, 30, 50);
             scene.add(spotLight);
             
             // Camera...
