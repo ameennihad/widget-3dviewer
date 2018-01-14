@@ -2312,6 +2312,11 @@ cpdefine('inline:com-chilipeppr-widget-3dviewer', ['chilipeppr_ready', 'Three', 
                 ctr++;
             });
 
+            var spotLight = new THREE.SpotLight(0xffffff);
+            spotLight.castShadow = true;
+            spotLight.position.set(15, 30, 50);
+            scene.add(spotLight);
+            
             // Camera...
             // If you make the near and far too much you get
             // a fail on the intersectObjects()
@@ -2371,7 +2376,7 @@ cpdefine('inline:com-chilipeppr-widget-3dviewer', ['chilipeppr_ready', 'Three', 
                     antialias: true,
                     preserveDrawingBuffer: false,
                     alpha: false,
-                    logarithmicDepthBuffer: true
+                    logarithmicDepthBuffer: true //Ameen; Changed to True
                 });
             } else {
                 console.error('No WebGL Support found! CRITICAL ERROR!');
