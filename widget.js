@@ -2009,7 +2009,7 @@ cpdefine('inline:com-chilipeppr-widget-3dviewer', ['chilipeppr_ready', 'Three', 
         },
         drawAxesToolAndExtents: function() {
             
-            //return;
+            return;
             // these are drawn after the gcode is rendered now
             // so we can see if in inch or mm mode
             // these items scale based on that mode
@@ -2156,7 +2156,7 @@ cpdefine('inline:com-chilipeppr-widget-3dviewer', ['chilipeppr_ready', 'Three', 
                 this.shadowplane = plane;
                 this.sceneAdd(this.shadowplane);
             }
-            //this.sceneAdd(this.toolhead);
+            this.sceneAdd(this.toolhead);
             
             console.groupEnd();
             
@@ -2220,7 +2220,7 @@ cpdefine('inline:com-chilipeppr-widget-3dviewer', ['chilipeppr_ready', 'Three', 
 
         },
         drawExtentsLabels: function() {
-            //this.decorateExtents();
+            this.decorateExtents();
         },
         axes: null, // global property to store axes that we drew
         drawAxes: function() {
