@@ -2156,7 +2156,7 @@ cpdefine('inline:com-chilipeppr-widget-3dviewer', ['chilipeppr_ready', 'Three', 
                 this.shadowplane = plane;
                 this.sceneAdd(this.shadowplane);
             }
-            this.sceneAdd(this.toolhead);
+            //this.sceneAdd(this.toolhead);
             
             console.groupEnd();
             
