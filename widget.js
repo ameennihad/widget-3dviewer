@@ -2220,7 +2220,7 @@ cpdefine('inline:com-chilipeppr-widget-3dviewer', ['chilipeppr_ready', 'Three', 
 
         },
         drawExtentsLabels: function() {
-            this.decorateExtents();
+            //this.decorateExtents();
         },
         axes: null, // global property to store axes that we drew
         drawAxes: function() {
