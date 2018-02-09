@@ -2009,14 +2009,14 @@ cpdefine('inline:com-chilipeppr-widget-3dviewer', ['chilipeppr_ready', 'Three', 
         },
         drawAxesToolAndExtents: function() {
             
-            //return;
+            return;
             // these are drawn after the gcode is rendered now
             // so we can see if in inch or mm mode
             // these items scale based on that mode
-            //this.drawToolhead();
+            this.drawToolhead();
             this.drawGrid();
             this.drawExtentsLabels();
-            //this.drawAxes();
+            this.drawAxes();
         },
         shadowplane: null,
         drawToolhead: function() {
